@@ -1,0 +1,27 @@
+{
+  "name": "Edit... ALL THE THINGS!",
+  "description": "This extension allows you to edit things on the current page for prototyping.",
+  "author": "Zach Reed",
+  "offline_enabled": true,
+  "homepage_url": "http://iamzachreed.com/",
+  "version": "1.1",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "tabs", "http://*/*", "https://*/*"
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "browser_action": {
+      "default_title": "Edit this page!",
+      "default_icon": {
+        "19": "images/edit_allthethings_19x19.png",
+        "38": "images/edit_allthethings_38x38.png"
+      }
+  },
+  "manifest_version": 2
+}
